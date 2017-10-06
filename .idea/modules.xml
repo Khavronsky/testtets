@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CopyofBleOta2.iml" filepath="$PROJECT_DIR$/CopyofBleOta2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidSupportLibrary/androidSupportLibrary.iml" filepath="$PROJECT_DIR$/androidSupportLibrary/androidSupportLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oTAhexFromAssets/oTAhexFromAssets.iml" filepath="$PROJECT_DIR$/oTAhexFromAssets/oTAhexFromAssets.iml" />
+    </modules>
+  </component>
+</project>

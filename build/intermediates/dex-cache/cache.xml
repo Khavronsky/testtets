@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e.konobeeva\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\build\intermediates\pre-dexed\debug\support-v4-18.0.0_7722263f08b7b38075fbea56e6cd3a2856ba5585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e.konobeeva\.android\build-cache\38733ad02496218a228d289eb2971f53f38c73bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\build\intermediates\pre-dexed\debug\classes_7beaaef8357a8595feeb5caa01d5a46ef0225cf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\androidSupportLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9fad9261deeaa6722312ea428f83c833f069ce87">
+        <dex dex="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\build\intermediates\pre-dexed\debug\classes_f7aee8c4726fd6f96fd838383c52faf47001695b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\main\build\intermediates\bundles\default\libs\nrf-logger-v2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3de8dea85650cfdac420e981f0a1ac253b713da1">
+        <dex dex="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\build\intermediates\pre-dexed\debug\nrf-logger-v2.0_badbc93b4d8d36a7e1d3a1d5987e704d22e79717.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\main\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="90852073d46042e63e4058742e04e3150b6b7bf8">
+        <dex dex="D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\build\intermediates\pre-dexed\debug\classes_5766091c5ba146c5f8f5b554e5fafb446428a050.jar" />
+    </item>
+
+</items>
