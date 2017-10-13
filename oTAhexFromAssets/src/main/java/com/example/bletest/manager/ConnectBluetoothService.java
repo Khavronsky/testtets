@@ -35,11 +35,11 @@ public class ConnectBluetoothService extends Service {
     public final static String EXTRA_DATA = "com.light.ble.service.EXTRA_DATA";
     public final static String ON_DESCRIPTOR_WRITE = "ON_DESCRIPTOR_WRITE";
 
-//    public final static String ACTION_GAT_RSSI = "com.light.ble.service.RSSI";
-
     public final static String RFSTAR_CHARACTERISTIC_ID = "com.light.ble.service.characteristic"; // 唯一标识
 
     private BluetoothGatt bluetoothGatt;
+
+    private BluetoothAdapter mBluetoothAdapter;
 
     private BluetoothDevice bluetoothDevice;
 
@@ -59,7 +59,7 @@ public class ConnectBluetoothService extends Service {
         final BluetoothManager bluetoothManager =
                 (BluetoothManager) mContext.getSystemService(Context.BLUETOOTH_SERVICE);
 
-        BluetoothAdapter mBluetoothAdapter = bluetoothManager.getAdapter();
+        mBluetoothAdapter = bluetoothManager.getAdapter();
 
         bluetoothDevice = mBluetoothAdapter.getRemoteDevice(macAddress);
 
@@ -84,7 +84,7 @@ public class ConnectBluetoothService extends Service {
                 } else if (newState == BluetoothProfile.STATE_DISCONNECTED) {
 
                     sendBroadcestAction(ACTION_GATT_DISCONNECTED,gatt.getDevice().getAddress());
-                    disconnect(gatt);
+                    disconnect();
                 }
             }
 
@@ -163,6 +163,8 @@ public class ConnectBluetoothService extends Service {
 
     public void setCharacteristicNotification(BluetoothGattCharacteristic characteristic, boolean enable) {
 
+        Log.d(TAG, "setCharacteristicNotification: ");
+
         if (bluetoothGatt == null) {
             return;
         }
@@ -182,6 +184,7 @@ public class ConnectBluetoothService extends Service {
     }
 
     public List<BluetoothGattService> getSupportedGattServices() {
+        Log.d(TAG, "getSupportedGattServices: ");
         if (bluetoothGatt == null) {
             return null;
         }
@@ -189,9 +192,20 @@ public class ConnectBluetoothService extends Service {
     }
 
     public void disconnect() {
+        Log.d(TAG, "disconnect: ");
         if(bluetoothGatt==null)return;
         bluetoothGatt.disconnect();
         bluetoothGatt.close();
+    }
+
+    public void startScan(BluetoothAdapter.LeScanCallback callback){
+        Log.d(TAG, "startScan: ");
+        mBluetoothAdapter.startLeScan(callback);
+    }
+
+    public void stopScan(BluetoothAdapter.LeScanCallback callback){
+        Log.d(TAG, "stopScan: ");
+        mBluetoothAdapter.stopLeScan(callback);
     }
 
     private void sendBroadcestAction(String action, String address){

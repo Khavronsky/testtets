@@ -76,7 +76,7 @@ public class RFLampDevice extends Bledevice {
 	}
 
 	public void sendUpdate() {
-		Log.d(TAG, "sendUpdate: ");
+		Log.d(TAG, "sendUpdateCmd: ");
 	byte[] value = new byte[16];
 		// value[0] = 0x03;
 		// value[1] = 0x01;

@@ -41,7 +41,6 @@ public class TestManegerActivity extends Activity implements View.OnClickListene
 
     @Override
     public void onClick(final View v) {
-        OtaBraceletV2Manager otaManager = new OtaBraceletV2Manager();
-        otaManager.startUpdateOta("/storage/emulated/0/Download/0600_1505722428.key",this, "E2:05:BA:0F:2C:63");
+        new StartConnectionServiceManager("E2:05:BA:0F:2C:63", this, "/storage/emulated/0/Download/JA_1636_V055_0_20170707.zip");
     }
 }

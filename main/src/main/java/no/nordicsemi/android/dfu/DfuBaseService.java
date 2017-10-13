@@ -1084,6 +1084,7 @@ public abstract class DfuBaseService extends IntentService {
 
 	@Override
 	protected void onHandleIntent(final Intent intent) {
+		Log.d(TAG, "onHandleIntent: ");
 		final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
 		// Read input parameters
@@ -1114,6 +1115,7 @@ public abstract class DfuBaseService extends IntentService {
 			sendErrorBroadcast(ERROR_FILE_TYPE_UNSUPPORTED);
 			return;
 		}
+		Log.d(TAG, "onHandleIntent: after 1");
 
 		mDeviceAddress = deviceAddress;
 		mDeviceName = deviceName;
@@ -1156,7 +1158,7 @@ public abstract class DfuBaseService extends IntentService {
 		} catch (final NumberFormatException e) {
 			mbrSize = DfuSettingsConstants.SETTINGS_DEFAULT_MBR_SIZE;
 		}
-
+		Log.d(TAG, "onHandleIntent: Starting DFU service");
 		sendLogBroadcast(LOG_LEVEL_VERBOSE, "Starting DFU service");
 
 		/*
@@ -1204,14 +1206,17 @@ public abstract class DfuBaseService extends IntentService {
 				}
 				sendLogBroadcast(LOG_LEVEL_INFO, "Image file opened (" + mImageSizeInBytes + " bytes in total)");
 			} catch (final SecurityException e) {
+				e.printStackTrace();
 				loge("A security exception occurred while opening file", e);
 				updateProgressNotification(ERROR_FILE_NOT_FOUND);
 				return;
 			} catch (final FileNotFoundException e) {
+				e.printStackTrace();
 				loge("An exception occurred while opening file", e);
 				updateProgressNotification(ERROR_FILE_NOT_FOUND);
 				return;
 			} catch (final IOException e) {
+				e.printStackTrace();
 				loge("An exception occurred while calculating file size", e);
 				updateProgressNotification(ERROR_FILE_ERROR);
 				return;
@@ -1221,30 +1226,36 @@ public abstract class DfuBaseService extends IntentService {
 			 * Now let's connect to the device.
 			 * All the methods below are synchronous. The mLock object is used to wait for asynchronous calls.
 			 */
+			Log.d(TAG, "onHandleIntent: Now let's connect to the device.");
 			sendLogBroadcast(LOG_LEVEL_VERBOSE, "Connecting to DFU target...");
 			updateProgressNotification(PROGRESS_CONNECTING);
 
 			final BluetoothGatt gatt = connect(deviceAddress);
 			// Are we connected?
 			if (gatt == null) {
+				Log.d(TAG, "onHandleIntent: Bluetooth adapter disabled");
 				loge("Bluetooth adapter disabled");
 				sendLogBroadcast(LOG_LEVEL_ERROR, "Bluetooth adapter disabled");
 				updateProgressNotification(ERROR_BLUETOOTH_DISABLED);
 				return;
 			}
+			Log.d(TAG, "onHandleIntent: Bluetooth adapter not null");
 			if (mError > 0) { // error occurred
 				final int error = mError & ~ERROR_CONNECTION_STATE_MASK;
 				loge("An error occurred while connecting to the device:" + error);
+				Log.d(TAG, "onHandleIntent: error =" +error);
 				sendLogBroadcast(LOG_LEVEL_ERROR, String.format("Connection failed (0x%02X): %s", error, GattError.parseConnectionError(error)));
 				terminateConnection(gatt, mError);
 				return;
 			}
+			Log.d(TAG, "onHandleIntent: no error");
 			if (mAborted) {
 				logi("Upload aborted");
 				sendLogBroadcast(LOG_LEVEL_WARNING, "Upload aborted");
 				terminateConnection(gatt, PROGRESS_ABORTED);
 				return;
 			}
+			Log.d(TAG, "onHandleIntent: no  mAborted");
 
 			// We have connected to DFU device and services are discoverer
 			final BluetoothGattService dfuService = gatt.getService(DFU_SERVICE_UUID); // there was a case when the service was null. I don't know why
@@ -1254,14 +1265,17 @@ public abstract class DfuBaseService extends IntentService {
 				terminateConnection(gatt, ERROR_SERVICE_NOT_FOUND);
 				return;
 			}
+			Log.d(TAG, "onHandleIntent: dfuService != null ");
 			final BluetoothGattCharacteristic controlPointCharacteristic = dfuService.getCharacteristic(DFU_CONTROL_POINT_UUID);
 			final BluetoothGattCharacteristic packetCharacteristic = dfuService.getCharacteristic(DFU_PACKET_UUID);
 			if (controlPointCharacteristic == null || packetCharacteristic == null) {
 				loge("DFU characteristics not found in the DFU service");
+				Log.d(TAG, "onHandleIntent: DFU characteristics not found in the DFU service ");
 				sendLogBroadcast(LOG_LEVEL_WARNING, "Connected. DFU Characteristics not found");
 				terminateConnection(gatt, ERROR_CHARACTERISTICS_NOT_FOUND);
 				return;
 			}
+			Log.d(TAG, "onHandleIntent: after 2");
 			/*
 			 * The DFU Version characteristic has been added in SDK 7.0.
 			 *
@@ -1753,6 +1767,7 @@ public abstract class DfuBaseService extends IntentService {
 						}
 						updateProgressNotification(PROGRESS_COMPLETED);
 					} else {
+						Log.d(TAG, "onHandleIntent: 1");
 						/*
 						 * The current service handle will try to upload Soft Device and/or Bootloader.
 						 * We need to enqueue another Intent that will try to send application only.
@@ -1767,6 +1782,7 @@ public abstract class DfuBaseService extends IntentService {
 						startService(newIntent);
 					}
 				} catch (final UnknownResponseException e) {
+					e.printStackTrace();
 					final int error = ERROR_INVALID_RESPONSE;
 					loge(e.getMessage());
 					sendLogBroadcast(LOG_LEVEL_ERROR, e.getMessage());
@@ -1776,6 +1792,7 @@ public abstract class DfuBaseService extends IntentService {
 					sendLogBroadcast(LOG_LEVEL_APPLICATION, "Reset request sent");
 					terminateConnection(gatt, error);
 				} catch (final RemoteDfuException e) {
+					e.printStackTrace();
 					final int error = ERROR_REMOTE_MASK | e.getErrorNumber();
 					loge(e.getMessage());
 					sendLogBroadcast(LOG_LEVEL_ERROR, String.format("Remote DFU error: %s", GattError.parse(error)));
@@ -1786,7 +1803,9 @@ public abstract class DfuBaseService extends IntentService {
 					terminateConnection(gatt, error);
 				}
 			} catch (final UploadAbortedException e) {
+				e.printStackTrace();
 				logi("Upload aborted");
+
 				sendLogBroadcast(LOG_LEVEL_WARNING, "Upload aborted");
 				if (mConnectionState == STATE_CONNECTED_AND_READY)
 					try {
@@ -1799,12 +1818,14 @@ public abstract class DfuBaseService extends IntentService {
 					}
 				terminateConnection(gatt, PROGRESS_ABORTED);
 			} catch (final DeviceDisconnectedException e) {
+				e.printStackTrace();
 				sendLogBroadcast(LOG_LEVEL_ERROR, "Device has disconnected");
 				// TODO reconnect n times?
 				loge(e.getMessage());
 				close(gatt);
 				updateProgressNotification(ERROR_DEVICE_DISCONNECTED);
 			} catch (final DfuException e) {
+				e.printStackTrace();
 				int error = e.getErrorNumber();
 				// Connection state errors and other Bluetooth GATT callbacks share the same error numbers. Therefore we are using bit masks to identify the type.
 				if ((error & ERROR_CONNECTION_STATE_MASK) > 0) {

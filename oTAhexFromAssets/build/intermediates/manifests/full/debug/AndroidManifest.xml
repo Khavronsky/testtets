@@ -49,6 +49,8 @@
         <!-- </intent-filter> -->
         <!-- </activity> -->
 
+        <service android:name="com.example.bletest.manager.ConnectBluetoothService" >
+        </service>
         <service android:name="com.example.bletest.LightBLEService" >
         </service>
 

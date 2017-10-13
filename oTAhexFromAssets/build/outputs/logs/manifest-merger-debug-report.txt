@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:2:1-84:12
 	package
 		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml
@@ -63,7 +63,7 @@ MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\e.konobeeva\.andr
 		INJECTED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml
 		INJECTED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml
 application
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:25:5-79:19
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:25:5-82:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\e.konobeeva\.android\build-cache\38733ad02496218a228d289eb2971f53f38c73bb\output\AndroidManifest.xml:19:5-20
 	android:label
 		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:28:9-41
@@ -93,31 +93,35 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:38:17-77
 	android:name
 		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:38:27-74
-service#com.example.bletest.LightBLEService
+service#com.example.bletest.manager.ConnectBluetoothService
 ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:54:9-55:19
 	android:name
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:54:18-68
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:54:18-84
+service#com.example.bletest.LightBLEService
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:57:9-58:19
+	android:name
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:57:18-68
 activity#com.example.bletest.ExDialog
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:56:1-57:61
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:59:1-60:61
 	android:theme
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:57:6-49
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:60:6-49
 	android:name
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:56:11-54
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:59:11-54
 activity#com.example.bletest.TestActivity
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:58:9-61:20
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:61:9-64:20
 	android:label
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:60:13-56
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:63:13-56
 	android:name
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:59:13-60
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:62:13-60
 activity#com.example.bletest.OtaActivity
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:62:9-70:20
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:65:9-73:20
 	android:name
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:63:13-59
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:66:13-59
 activity#com.example.bletest.NotificationActivity
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:71:13-73:25
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:74:13-76:25
 	android:name
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:72:13-68
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:75:13-68
 service#com.example.bletest.DddService
-ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:74:9-78:19
+ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:77:9-81:19
 	android:name
-		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:75:13-39
+		ADDED from D:\Users_profiles\e.konobeeva\Downloads\CopyofBleOta2\oTAhexFromAssets\src\main\AndroidManifest.xml:78:13-39

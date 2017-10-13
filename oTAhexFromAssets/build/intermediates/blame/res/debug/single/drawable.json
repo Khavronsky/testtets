@@ -1,15 +1,31 @@
 [
     {
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
+    },
+    {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
         "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_ic_clear.xml"
     },
     {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
@@ -28,100 +44,12 @@
         "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
     },
     {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_search_dropdown_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_spinner_ab_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_ic_clear.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
         "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_search_dropdown_light.xml"
     },
     {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_ic_clear.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_search_dropdown_dark.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable\\abc_ic_clear_holo_light.xml"
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
     },
     {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
@@ -134,5 +62,9 @@
     {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "C:\\Users\\e.konobeeva\\.android\\build-cache\\38733ad02496218a228d289eb2971f53f38c73bb\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
     }
 ]

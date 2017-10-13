@@ -10,17 +10,5 @@
     {
         "merged": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_stat_notify_dfu.png",
         "source": "D:\\Users_profiles\\e.konobeeva\\Downloads\\CopyofBleOta2\\main\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ic_stat_notify_dfu.png"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_file_browser.xml",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\src\\main\\res\\drawable-hdpi\\app_file_browser.xml"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_stat_notify_dfu.png",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\Copy of BleOta2\\main\\unspecified\\res\\drawable-hdpi-v4\\ic_stat_notify_dfu.png"
-    },
-    {
-        "merged": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_notify_cancel.png",
-        "source": "D:\\Users_profiles\\a.viter\\Desktop\\Copy of BleOta2\\oTAhexFromAssets\\build\\intermediates\\exploded-aar\\Copy of BleOta2\\main\\unspecified\\res\\drawable-hdpi-v4\\ic_action_notify_cancel.png"
     }
 ]
